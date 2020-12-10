@@ -1,0 +1,10 @@
+@import url('./__image/results__image.css');
+@import url('./__container-grid/results__container-grid.css');
+@import url('./__link/results__link.css');
+@import url('./__container-image/results__container-image.css');
+@import url('./__container-cube/results__container-cube.css');
+@import url('./__image-cube/results__image-cube.css');
+
+.results {
+    margin-top: 90px;
+}

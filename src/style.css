@@ -1,0 +1,15 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/font.css');
+@import url('./blocks/page/page.css');
+@import url('./blocks/main/main.css');
+@import url('./blocks/about-card/about-card.css');
+@import url('./blocks/intro/intro.css');
+@import url('./blocks/wrapper/wrapper.css');
+@import url('./blocks/about/about.css');
+@import url('./blocks/link/link.css');
+@import url('./blocks/title/title.css');
+@import url('./blocks/subtitle/subtitle.css');
+@import url('./blocks/work/work.css');
+@import url('./blocks/results/results.css');
+@import url('./blocks/results-item/results-item.css');
+@import url('./blocks/slider/slider.css');

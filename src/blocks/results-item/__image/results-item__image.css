@@ -1,0 +1,11 @@
+.results-item__image {
+    margin-bottom: 30px;
+    max-width: 75px;
+}
+
+@media screen and (max-width: 426px) {
+    .results-item__image {
+        max-width: 50px;
+        margin-bottom: 10px;
+    }
+}

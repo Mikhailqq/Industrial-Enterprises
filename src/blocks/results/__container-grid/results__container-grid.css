@@ -1,0 +1,18 @@
+.results__container-grid {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 426px) {
+    .results__container-grid {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: none;
+        margin-top: 50px;
+        grid-gap: 2rem;
+
+    }
+}

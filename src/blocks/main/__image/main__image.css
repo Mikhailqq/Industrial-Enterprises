@@ -1,0 +1,25 @@
+.main__image {
+    width: 100%;
+
+}
+
+@media screen and (max-width: 426px) {
+    .main__image {
+        width: 231%;
+        position: absolute;
+        top: -16px;
+        left: -259px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .main__image {
+        width: 246%;
+
+    }
+}
+
+@media (orientation: landscape) and (max-width: 850px) {
+  .main__image {
+    flex-direction: row;
+  }
+}

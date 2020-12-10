@@ -1,0 +1,13 @@
+.results__container-cube {
+    display: none;
+}
+
+@media screen and (max-width: 426px) {
+    .results__container-cube {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}

@@ -1,0 +1,45 @@
+@import url('./__image/main__image.css');
+@import url('./__container/main__container.css');
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 120px;
+    background-image: url(../../images/exc-hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 618px;
+    position: relative;
+
+}
+
+/* @media screen and (max-width: 1024px) {
+    .main {
+        height: 415px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+.main {
+    height: 300px;
+}
+} */
+@media all and (max-width : 1024px) {
+  .main {
+   width: auto;
+   margin-top: 120px;
+   /* min-height: 562px; */
+   background-size: cover;
+  }
+}
+
+@media all and (max-width : 768px) {
+  .main {
+    min-height: 300px;
+
+  }
+}

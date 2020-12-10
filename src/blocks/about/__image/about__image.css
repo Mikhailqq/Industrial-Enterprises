@@ -1,0 +1,10 @@
+.about__image {
+    /* margin-top: 60px; */
+    width: 100%;
+    background-image: url(../../../images/1rub-build.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 340px;
+    display: flex;
+}

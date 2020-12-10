@@ -1,0 +1,21 @@
+
+@import url('./__container-image/about-card__container-image.css');
+@import url('./__image/about-card__image.css');
+@import url('./__text/about-card__text.css');
+@import url('./__text-container/about-card__text-container.css');
+
+
+
+.about-card {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 2.0625rem;
+}
+
+@media all and (max-width : 769px) {
+    .about-card {
+        display: grid;
+        align-items: center;
+        grid-template-rows: 1fr 1.4rem;
+    }
+}

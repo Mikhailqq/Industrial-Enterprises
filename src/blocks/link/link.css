@@ -1,0 +1,7 @@
+.link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: calc(18px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #84559C;
+}

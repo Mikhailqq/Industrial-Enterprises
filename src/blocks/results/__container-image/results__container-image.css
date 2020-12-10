@@ -1,0 +1,26 @@
+.results__container-image {
+    max-width: 1168px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+    .results__container-image {
+
+        max-width: 814px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .results__container-image {
+
+        max-width: 590px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .results__container-image {
+
+        max-width: 328px;
+    }
+}

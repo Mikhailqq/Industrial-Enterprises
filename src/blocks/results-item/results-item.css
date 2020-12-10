@@ -1,0 +1,10 @@
+@import url('./__image/results-item__image.css');
+@import url('./__text/results-item__text.css');
+
+
+.results-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
